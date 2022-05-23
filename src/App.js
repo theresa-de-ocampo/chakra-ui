@@ -7,6 +7,7 @@ import Buttons from "./components/forms/Buttons"
 import Checkboxes from "./components/forms/Checkboxes"
 import Editables from "./components/forms/Editables";
 import FormControls from "./components/forms/FormControls";
+import Inputs from "./components/forms/Inputs";
 
 export default function App() {
     return (
@@ -16,6 +17,7 @@ export default function App() {
             <Checkboxes />
             <Editables />
             <FormControls />
+            <Inputs />
         </ChakraProvider>
     );
 }
