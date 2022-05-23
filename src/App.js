@@ -1,4 +1,14 @@
-import { ChakraProvider, Box, Text, Button, theme, ButtonGroup, IconButton } from "@chakra-ui/react"
+import {
+    ChakraProvider,
+    theme,
+    Box,
+    Text,
+    Button,
+    ButtonGroup,
+    IconButton,
+    Checkbox,
+    CheckboxGroup
+} from "@chakra-ui/react"
 import { MdBuild, MdCall} from "react-icons/md"
 import { BiTachometer } from "react-icons/bi"
 import { FaFacebook, FaTwitter } from "react-icons/fa"
@@ -56,6 +66,24 @@ export default function App() {
                 <Button>Save</Button>
                 <IconButton arial-label="Add to Friends" icon={<AiOutlinePlus />} />
             </ButtonGroup>
+            <br />
+            
+            <Box mt={8}>
+                <Checkbox defaultChecked ml={5} icon={<AiOutlinePlus />}>Are you happy?</Checkbox>
+                <Checkbox isDisabled ml={5}>Are you friendly?</Checkbox>
+                <Checkbox colorScheme="green" ml={5} size="lg">You want money?</Checkbox>
+                <Checkbox isInvalid ml={5}>I agree to the terms and conditions.</Checkbox>
+                <Checkbox defaultChecked spacing="2rem" ml={5}>Do you need space?</Checkbox>
+                <Checkbox iconColor="red" iconSize="3rem">Stop?</Checkbox>
+                <br />
+                <p>Skills</p>
+                <CheckboxGroup colorScheme="pink" defaultValue={["html", "css"]} ml={5}>
+                    <Checkbox value="html">HTML</Checkbox>
+                    <Checkbox value="css">CSS</Checkbox>
+                    <Checkbox value="javascript">JavaScript</Checkbox>
+                    <Checkbox value="php">PHP</Checkbox>
+                </CheckboxGroup>
+            </Box>
         </ChakraProvider>
     );
 }
