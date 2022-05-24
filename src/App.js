@@ -10,6 +10,7 @@ import FormControls from "./components/forms/FormControls";
 import Inputs from "./components/forms/Inputs";
 import NumberInputs from "./components/forms/NumberInputs";
 import PinInputs from "./components/forms/PinInputs";
+import RadioButtons from "./components/forms/RadioButtons";
 
 export default function App() {
     return (
@@ -22,6 +23,7 @@ export default function App() {
             <Inputs />
             <NumberInputs />
             <PinInputs />
+            <RadioButtons />
         </ChakraProvider>
     );
 }
