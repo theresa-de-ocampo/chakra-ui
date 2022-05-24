@@ -9,6 +9,7 @@ import Editables from "./components/forms/Editables";
 import FormControls from "./components/forms/FormControls";
 import Inputs from "./components/forms/Inputs";
 import NumberInputs from "./components/forms/NumberInputs";
+import PinInputs from "./components/forms/PinInputs";
 
 export default function App() {
     return (
@@ -20,6 +21,7 @@ export default function App() {
             <FormControls />
             <Inputs />
             <NumberInputs />
+            <PinInputs />
         </ChakraProvider>
     );
 }
