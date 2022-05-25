@@ -15,6 +15,7 @@ import DropDown from "./components/forms/DropDown";
 import AspectRatios from "./components/layout/AspectRatios";
 import Centering from "./components/layout/Centering";
 import Containers from "./components/layout/Containers";
+import FlexDemo from "./components/layout/FlexDemo";
 
 export default function App() {
     return (
@@ -32,6 +33,7 @@ export default function App() {
             <AspectRatios />
             <Centering />
             <Containers />
+            <FlexDemo />
         </ChakraProvider>
     );
 }
