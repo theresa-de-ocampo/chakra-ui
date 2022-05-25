@@ -16,6 +16,7 @@ import AspectRatios from "./components/layout/AspectRatios";
 import Centering from "./components/layout/Centering";
 import Containers from "./components/layout/Containers";
 import FlexDemo from "./components/layout/FlexDemo";
+import GridDemo from "./components/layout/GridDemo";
 
 export default function App() {
     return (
@@ -34,6 +35,7 @@ export default function App() {
             <Centering />
             <Containers />
             <FlexDemo />
+            <GridDemo />
         </ChakraProvider>
     );
 }
