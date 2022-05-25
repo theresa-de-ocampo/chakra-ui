@@ -17,6 +17,7 @@ import Centering from "./components/layout/Centering";
 import Containers from "./components/layout/Containers";
 import FlexDemo from "./components/layout/FlexDemo";
 import GridDemo from "./components/layout/GridDemo";
+import StackDemo from "./components/layout/StackDemo";
 
 export default function App() {
     return (
@@ -36,6 +37,7 @@ export default function App() {
             <Containers />
             <FlexDemo />
             <GridDemo />
+            <StackDemo />
         </ChakraProvider>
     );
 }
