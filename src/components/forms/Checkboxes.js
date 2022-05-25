@@ -3,13 +3,12 @@ import {
     CheckboxGroup,
     Box
 } from "@chakra-ui/react"
-import { AiOutlinePlus } from "react-icons/ai"
 
 export default function Checkboxes() {
     return (
         <>
             <Box mt={8}>
-                <Checkbox defaultChecked ml={5} icon={<AiOutlinePlus />}>Are you happy?</Checkbox>
+                <Checkbox defaultChecked ml={5}>Are you happy?</Checkbox>
                 <Checkbox isDisabled ml={5}>Are you friendly?</Checkbox>
                 <Checkbox colorScheme="green" ml={5} size="lg">You want money?</Checkbox>
                 <Checkbox isInvalid ml={5}>I agree to the terms and conditions.</Checkbox>
