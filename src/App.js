@@ -13,6 +13,7 @@ import PinInputs from "./components/forms/PinInputs";
 import RadioButtons from "./components/forms/RadioButtons";
 import DropDown from "./components/forms/DropDown";
 import AspectRatios from "./components/layout/AspectRatios";
+import Centering from "./components/layout/Centering";
 
 export default function App() {
     return (
@@ -28,6 +29,7 @@ export default function App() {
             <RadioButtons />
             <DropDown />
             <AspectRatios />
+            <Centering />
         </ChakraProvider>
     );
 }
