@@ -18,6 +18,8 @@ import Containers from "./components/layout/Containers";
 import FlexDemo from "./components/layout/FlexDemo";
 import GridDemo from "./components/layout/GridDemo";
 import StackDemo from "./components/layout/StackDemo";
+import SpinnerDemo from "./components/feedback/SpinnerDemo";
+import AlertDemo from "./components/feedback/AlertDemo";
 
 export default function App() {
     return (
@@ -38,6 +40,8 @@ export default function App() {
             <FlexDemo />
             <GridDemo />
             <StackDemo />
+            <SpinnerDemo />
+            <AlertDemo />
         </ChakraProvider>
     );
 }
