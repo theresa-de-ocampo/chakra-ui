@@ -21,6 +21,7 @@ import StackDemo from "./components/layout/StackDemo";
 import SpinnerDemo from "./components/feedback/SpinnerDemo";
 import AlertDemo from "./components/feedback/AlertDemo";
 import ToastDemo from "./components/feedback/ToastDemo";
+import DrawerDemo from "./components/overlay/DrawerDemo";
 
 export default function App() {
     return (
@@ -44,6 +45,7 @@ export default function App() {
             <SpinnerDemo />
             <AlertDemo />
             <ToastDemo />
+            <DrawerDemo />
         </ChakraProvider>
     );
 }
