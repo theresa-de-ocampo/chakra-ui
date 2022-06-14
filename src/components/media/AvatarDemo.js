@@ -31,7 +31,7 @@ export default function AvatarDemo() {
                     </Avatar>
                 </WrapItem>
             </Wrap>
-            <AvatarGroup max={2} mb={8}>
+            <AvatarGroup max={2} ml={5} mb={8}>
                 <Avatar name="Prosper Otemuyiwa" src="https://bit.ly/prosper-baba" />
                 <Avatar name="Christian Nwamba" src="https://bit.ly/code-beast" />
                 <Avatar name="Kola Tioluwani" src="https://bit.ly/tioluwani-kolawole" />

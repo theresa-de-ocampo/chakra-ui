@@ -23,6 +23,7 @@ import AlertDemo from "./components/feedback/AlertDemo";
 import ToastDemo from "./components/feedback/ToastDemo";
 import DrawerDemo from "./components/overlay/DrawerDemo";
 import AvatarDemo from "./components/media/AvatarDemo";
+import MenuDemo from "./components/overlay/MenuDemo";
 
 export default function App() {
     return (
@@ -48,6 +49,7 @@ export default function App() {
             <ToastDemo />
             <DrawerDemo />
             <AvatarDemo />
+            <MenuDemo />
         </ChakraProvider>
     );
 }
