@@ -20,6 +20,7 @@ import GridDemo from "./components/layout/GridDemo";
 import StackDemo from "./components/layout/StackDemo";
 import SpinnerDemo from "./components/feedback/SpinnerDemo";
 import AlertDemo from "./components/feedback/AlertDemo";
+import ToastDemo from "./components/feedback/ToastDemo";
 
 export default function App() {
     return (
@@ -42,6 +43,7 @@ export default function App() {
             <StackDemo />
             <SpinnerDemo />
             <AlertDemo />
+            <ToastDemo />
         </ChakraProvider>
     );
 }
