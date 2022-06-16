@@ -2,9 +2,9 @@ import {
     ChakraProvider,
     theme
 } from "@chakra-ui/react"
-import StyleProps from "./components/StyleProps"
-import Buttons from "./components/forms/Buttons"
-import Checkboxes from "./components/forms/Checkboxes"
+// import StyleProps from "./components/StyleProps"';
+import Buttons from "./components/forms/Buttons";
+import Checkboxes from "./components/forms/Checkboxes";
 import Editables from "./components/forms/Editables";
 import FormControls from "./components/forms/FormControls";
 import Inputs from "./components/forms/Inputs";
@@ -24,11 +24,12 @@ import ToastDemo from "./components/feedback/ToastDemo";
 import DrawerDemo from "./components/overlay/DrawerDemo";
 import AvatarDemo from "./components/media/AvatarDemo";
 import MenuDemo from "./components/overlay/MenuDemo";
+import AccordionDemo from "./components/disclosure/AccordionDemo";
 
 export default function App() {
     return (
         <ChakraProvider theme={theme}>
-            <StyleProps />
+            {/* <StyleProps /> */}
             <Buttons />
             <Checkboxes />
             <Editables />
@@ -50,6 +51,7 @@ export default function App() {
             <DrawerDemo />
             <AvatarDemo />
             <MenuDemo />
+            <AccordionDemo />
         </ChakraProvider>
     );
 }
